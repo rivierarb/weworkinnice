@@ -64,11 +64,11 @@
           %li= link_to t('main_nav.groups.link'), groups_path, :class => 'groups'
           %li= link_to t('main_nav.projects_products.link'), projects_path, :class => 'projects'
           %li= link_to t('main_nav.resources.link'), resource_links_path, :class => 'resources'
-          /%li= link_to "Events", 'http://calagator.org', :class => 'events'
+          %li= link_to "A propos", 'http://weworkinnice.com', :class => 'events'
 
-        %form{:action => search_path, :method => :get, :id => 'global_search'}
-          %input{ :type => 'search', :placeholder => t('field.search.placeholder'), :name => 'q', :value => params[:query], |
-                  :results => 10, :autosave => 'citizenry_global_search'}
+        -# %form{:action => search_path, :method => :get, :id => 'global_search'}
+        -#  %input{ :type => 'search', :placeholder => t('field.search.placeholder'), :name => 'q', :value => params[:query], |
+        -#          :results => 10, :autosave => 'citizenry_global_search'}
 
       - if current_user.blank?
         #global_sign_in_form
