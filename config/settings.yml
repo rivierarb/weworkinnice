@@ -37,8 +37,8 @@ common:
     url: http://weworkinnice.com
     twitter: LesSatellites
     email: n.berge@lessatellites.fr
-    host: host
-    host_url: host@lessatellites.fr
+    host: Heroku
+    host_url: contact@heroku.com
     logotype: <span>W</span>eWorkInNice
   mailer:
     # delivery specific settings should be set in environment configs below
