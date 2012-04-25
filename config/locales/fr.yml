@@ -241,6 +241,9 @@ fr:
   site:
     err404:
       text: "L'enregistrement que vous avez demandé n'existe pas. Etes-vous bien certain de votre demande? Il a été peut-être supprimé? Ou alors enlevé par les extraterrestres? Désolé. Voilà un bébé paresseux tout mimi pour vous consoler:"
+    about:
+      title: "A propos"
+      text: "Bienvenue sur We Work In Nice"
     index:
       company: Entreprise
       group: Groupe
@@ -356,6 +359,8 @@ fr:
       link: Ressources
     people:
       link: Personnes
+    about:
+      link: A propos
   formtastic:
     labels:
       person:

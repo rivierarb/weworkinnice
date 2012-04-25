@@ -10,6 +10,9 @@ class SiteController < ApplicationController
     end
   end
 
+  def about
+  end
+
   def search
     redirect_to search_path(:query => params[:q]) and return if params[:q].present?
 
