@@ -10,10 +10,10 @@ gem 'rails-i18n'
 #     export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
 #
 # Note: the exact path to your MySQL lib/ directory may vary.
-gem 'mysql2', '~> 0.3.2', :group => :development
+#gem 'mysql2', '~> 0.3.2', :group => :development
 gem 'pg', :group => :production
 # Uncomment if youre using sqlite
-# gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'sqlite3-ruby', :require => 'sqlite3', :group => :development
 
 
 gem 'hoptoad_notifier'
