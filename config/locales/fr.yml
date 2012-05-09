@@ -209,7 +209,7 @@ fr:
       label: "…ou choisissez sur votre disque dur." # site#_import_image_from_url_tags
       hint: "De préférence %{size}px de large ou plus" # site#_import_image_from_url_tags
     import_url:
-      label: "importer une %{thing} depuis le web…" # site#_import_image_from_url_tags
+      label: "importer une image depuis le web…" # site#_import_image_from_url_tags
     mailing_list:
       label: "Mailing list" # groups#show
     meeting_info:
