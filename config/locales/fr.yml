@@ -15,7 +15,7 @@ fr:
     meeting_info: "Infos réunion"
     # TODO Review translation
     message: "Message"
-    name: "Nom"
+    name: "Prénom et Nom"
     photo_content_type: "Format de la photo"
     photo_import_url: "URL de la photo à importer"
     tag_list: "Tags"
