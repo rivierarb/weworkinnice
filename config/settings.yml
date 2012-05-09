@@ -7,13 +7,13 @@ common:
   time_zone: 'Pacific Time (US & Canada)'
   providers:
     - twitter
-    - open_id
-    - google
-    - yahoo
-    - facebook
-    - linked_in
-    - github
-    - foursquare
+    #- open_id
+    #- google
+    #- yahoo
+    #- facebook
+    #- linked_in
+    #- github
+    #- foursquare
   auth_credentials:
     twitter:
       key: skeletonkey
