@@ -207,7 +207,7 @@ fr:
       title: "Groupes" # people#show
     import_file:
       label: "…ou choisissez sur votre disque dur." # site#_import_image_from_url_tags
-      hint: "De préférence %{size}px de large ou plus" # site#_import_image_from_url_tags
+      hint: "De préférence %{size}*%{size} px de large ou plus" # site#_import_image_from_url_tags
     import_url:
       label: "importer une image depuis le web…" # site#_import_image_from_url_tags
     mailing_list:
