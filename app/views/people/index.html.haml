@@ -18,10 +18,11 @@
       %span.show
         %strong= t('list.mentor_filter.title') + ':'
         = link_to_unless_current t('list.mentor_filter.all'), people_path(:page => params[:page], :column => params[:column], :order => params[:order])
-        = "|"
-        = link_to_unless_current t('list.mentor_filter.mentors'), mentors_people_path(:page => params[:page], :column => params[:column], :order => params[:order])
-        = "|"
-        = link_to_unless_current t('list.mentor_filter.mentees'), mentees_people_path(:page => params[:page], :column => params[:column], :order => params[:order])
+        - if mentoring_enabled?
+          = "|"
+          = link_to_unless_current t('list.mentor_filter.mentors'), mentors_people_path(:page => params[:page], :column => params[:column], :order => params[:order])
+          = "|"
+          = link_to_unless_current t('list.mentor_filter.mentees'), mentees_people_path(:page => params[:page], :column => params[:column], :order => params[:order])
 
 
 - if @view == :grid
