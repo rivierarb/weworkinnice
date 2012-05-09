@@ -55,7 +55,7 @@ fr:
     errors:
       must_start_with_non_digit: "doit commencer par un non-chiffres" # TODO review translation
 
-  sign_in: Connexion
+  sign_in: Connexion/Inscription
   group:
     new:
       title: Nouveau groupe
@@ -85,7 +85,7 @@ fr:
         other: "entreprises taggées %{tag}"
   button:
     claim_people: Réclamer cette personne
-    sign_in: Connexion
+    sign_in: Connexion/Inscription
     login_as_sample_user: Se connecter en tant qu'utilisateur exemple
     login_as_this_user: "Se connecter en tant c'est utilisateur" # TODO review translation
     back: Retour
@@ -176,7 +176,7 @@ fr:
       edit: Modifier %{modelname}
       destroy: Supprimer %{modelname}
   sign_out: Déconnexion
-  sign_in_join: Connexion
+  sign_in_join: Connexion/Inscription
   pager:
     show_all: Tout montrer
   project:
