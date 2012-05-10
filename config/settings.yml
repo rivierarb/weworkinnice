@@ -39,7 +39,7 @@ common:
     email: n.berge@lessatellites.fr
     host: Heroku
     host_url: contact@heroku.com
-    logotype: <span>W</span>eWorkInNice
+    logotype: <span>w</span>eWorkInNice
   mailer:
     # delivery specific settings should be set in environment configs below
     # (you don't want to send out real emails in tests, do you?)
