@@ -85,8 +85,15 @@
         = t('layout.powered_by', :powered_by => link_to("Citizenry", "http://github.com/reidab/citizenry/")).html_safe
       #hosting_credit
         = t('layout.hosting_credit', :host => link_to("#{SETTINGS['organization']['host']}", "#{SETTINGS['organization']['host_url']}")).html_safe
-      #contact_link
-        = t('layout.contact_link', :email => mail_to("#{SETTINGS['organization']['email']}")).html_safe
       #twitter_link
         = t('layout.follow_link', :link => twitter_link("#{SETTINGS['organization']['twitter']}")).html_safe
-
+      #weworkinphilly_credit
+        Inspiré par
+        = link_to 'weWorkInPhilly', "http://http://weworkinphilly.com/"
+      %p#authors_link
+        Pour vous par
+        = link_to 'Nicolas Bergé', "https://twitter.com/LesSatellites"
+        ,
+        = link_to 'Geoffroy Couprie', "https://twitter.com/gcouprie"
+        et
+        = link_to 'Emmanuel Bastien', "https://twitter.com/ebastien"
