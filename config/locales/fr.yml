@@ -86,7 +86,7 @@ fr:
   button:
     claim_people: Réclamer cette personne
     sign_in: Connexion/Inscription
-    login_as_sample_user: Se connecter en tant qu'utilisateur exemple
+    login_as_sample_user: "Se connecter en tant qu'utilisateur exemple"
     login_as_this_user: "Se connecter en tant c'est utilisateur" # TODO review translation
     back: Retour
     edit: Modifier
