@@ -35,7 +35,7 @@ common:
     city: Nice
     state: France
     url: http://weworkinnice.com
-    twitter: LesSatellites
+    twitter: weWorkInNice
     email: n.berge@lessatellites.fr
     host: Heroku
     host_url: contact@heroku.com
