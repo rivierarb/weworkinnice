@@ -113,7 +113,7 @@ fr:
     title: "%{name}: L'annuaire Tech de %{city}"
     contact_link: Questions? Commentaires? Envies? Ecrivez à %{email}
     powered_by: Propulsé par %{powered_by}.
-    hosting_credit: Hébergé par %{host}.
+    hosting_credit: "Email: n.berge@lessatellites.fr"
   misc:
     name_on_provider: "%{name} sur %{provider}"
   authentication_method:
